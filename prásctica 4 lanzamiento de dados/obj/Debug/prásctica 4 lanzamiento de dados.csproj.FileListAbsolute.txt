@@ -1,0 +1,10 @@
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\bin\Debug\prásctica 4 lanzamiento de dados.exe.config
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\bin\Debug\prásctica 4 lanzamiento de dados.exe
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\bin\Debug\prásctica 4 lanzamiento de dados.pdb
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.csprojResolveAssemblyReference.cache
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica_4_lanzamiento_de_dados.Form1.resources
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica_4_lanzamiento_de_dados.Properties.Resources.resources
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.csproj.GenerateResource.Cache
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.csproj.CoreCompileInputs.cache
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.exe
+c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.pdb
