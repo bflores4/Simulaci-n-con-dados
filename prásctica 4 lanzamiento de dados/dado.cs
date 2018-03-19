@@ -20,8 +20,8 @@ namespace prásctica_4_lanzamiento_de_dados
             _caraMostrada = caraMostrada;
         }
 
-        Random r = new Random();
-        //static Random r = new Random(DateTime.Now.Millisecond);
+        //Random r = new Random();
+        static Random r = new Random(DateTime.Now.Millisecond);
 
         public int lanzarDado()
         {

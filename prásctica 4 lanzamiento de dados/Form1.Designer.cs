@@ -30,8 +30,9 @@
         {
             this.txtResutado = new System.Windows.Forms.TextBox();
             this.btnLanzarRepeticiones = new System.Windows.Forms.Button();
-            this.btnlanzarSuma = new System.Windows.Forms.Button();
+            this.btnlanzarSumaUnDado = new System.Windows.Forms.Button();
             this.lblenunciado = new System.Windows.Forms.Label();
+            this.btnlanzarSumaDosDados = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtResutado
@@ -43,7 +44,7 @@
             this.txtResutado.Multiline = true;
             this.txtResutado.Name = "txtResutado";
             this.txtResutado.ReadOnly = true;
-            this.txtResutado.Size = new System.Drawing.Size(293, 249);
+            this.txtResutado.Size = new System.Drawing.Size(489, 249);
             this.txtResutado.TabIndex = 0;
             // 
             // btnLanzarRepeticiones
@@ -56,33 +57,44 @@
             this.btnLanzarRepeticiones.UseVisualStyleBackColor = true;
             this.btnLanzarRepeticiones.Click += new System.EventHandler(this.btnLanzarRepeticiones_Click);
             // 
-            // btnlanzarSuma
+            // btnlanzarSumaUnDado
             // 
-            this.btnlanzarSuma.Location = new System.Drawing.Point(244, 52);
-            this.btnlanzarSuma.Name = "btnlanzarSuma";
-            this.btnlanzarSuma.Size = new System.Drawing.Size(155, 53);
-            this.btnlanzarSuma.TabIndex = 2;
-            this.btnlanzarSuma.Text = "Frecuencia de suma";
-            this.btnlanzarSuma.UseVisualStyleBackColor = true;
-            this.btnlanzarSuma.Click += new System.EventHandler(this.btnlanzarSuma_Click);
+            this.btnlanzarSumaUnDado.Location = new System.Drawing.Point(244, 52);
+            this.btnlanzarSumaUnDado.Name = "btnlanzarSumaUnDado";
+            this.btnlanzarSumaUnDado.Size = new System.Drawing.Size(155, 53);
+            this.btnlanzarSumaUnDado.TabIndex = 2;
+            this.btnlanzarSumaUnDado.Text = "Frecuencia de suma (un dado)";
+            this.btnlanzarSumaUnDado.UseVisualStyleBackColor = true;
+            this.btnlanzarSumaUnDado.Click += new System.EventHandler(this.btnlanzarSuma_Click);
             // 
             // lblenunciado
             // 
             this.lblenunciado.AutoSize = true;
-            this.lblenunciado.Location = new System.Drawing.Point(131, 9);
+            this.lblenunciado.Location = new System.Drawing.Point(229, 9);
             this.lblenunciado.Name = "lblenunciado";
             this.lblenunciado.Size = new System.Drawing.Size(165, 40);
             this.lblenunciado.TabIndex = 3;
             this.lblenunciado.Text = "LANZAR DADO \r\nPARA SABER LA(S)";
             this.lblenunciado.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btnlanzarSumaDosDados
+            // 
+            this.btnlanzarSumaDosDados.Location = new System.Drawing.Point(455, 52);
+            this.btnlanzarSumaDosDados.Name = "btnlanzarSumaDosDados";
+            this.btnlanzarSumaDosDados.Size = new System.Drawing.Size(155, 53);
+            this.btnlanzarSumaDosDados.TabIndex = 4;
+            this.btnlanzarSumaDosDados.Text = "Frecuencia de suma (dos dados)";
+            this.btnlanzarSumaDosDados.UseVisualStyleBackColor = true;
+            this.btnlanzarSumaDosDados.Click += new System.EventHandler(this.btnlanzarSumaDosDados_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 372);
+            this.ClientSize = new System.Drawing.Size(622, 372);
+            this.Controls.Add(this.btnlanzarSumaDosDados);
             this.Controls.Add(this.lblenunciado);
-            this.Controls.Add(this.btnlanzarSuma);
+            this.Controls.Add(this.btnlanzarSumaUnDado);
             this.Controls.Add(this.btnLanzarRepeticiones);
             this.Controls.Add(this.txtResutado);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
@@ -98,8 +110,9 @@
 
         private System.Windows.Forms.TextBox txtResutado;
         private System.Windows.Forms.Button btnLanzarRepeticiones;
-        private System.Windows.Forms.Button btnlanzarSuma;
+        private System.Windows.Forms.Button btnlanzarSumaUnDado;
         private System.Windows.Forms.Label lblenunciado;
+        private System.Windows.Forms.Button btnlanzarSumaDosDados;
     }
 }
 

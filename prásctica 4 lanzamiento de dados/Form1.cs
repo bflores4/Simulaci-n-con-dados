@@ -18,6 +18,7 @@ namespace prásctica_4_lanzamiento_de_dados
         }
 
         dado unDado = new dado();
+        dado otroDado = new dado();
 
         private void btnLanzarRepeticiones_Click(object sender, EventArgs e)
         {
@@ -40,7 +41,8 @@ namespace prásctica_4_lanzamiento_de_dados
             lanzamiento = 1;
             while (lanzamiento < 7)
             {
-                txtResutado.Text += "La cara " + lanzamiento + " cayo " + dado[lanzamiento - 1] + " veces" + Environment.NewLine;
+                txtResutado.Text += "La cara " + lanzamiento + " cayo " + dado[lanzamiento - 1] 
+                                 + " veces" + Environment.NewLine;
                 lanzamiento++;
             }
         }
@@ -49,7 +51,7 @@ namespace prásctica_4_lanzamiento_de_dados
         {
             txtResutado.Text = "";
             int lanzamientos = 0;
-            int[] dado = new int[11];
+            int[] resultado = new int[11];
             int frecuenciaSuma = 0;
             int suma;
 
@@ -57,16 +59,43 @@ namespace prásctica_4_lanzamiento_de_dados
             {
                 suma= unDado.lanzarDado() + unDado.lanzarDado();
                 
-                frecuenciaSuma = dado[suma-2];
+                frecuenciaSuma = resultado[suma-2];
                 frecuenciaSuma++;
-                dado[suma-2] = frecuenciaSuma; 
+                resultado[suma-2] = frecuenciaSuma; 
                 
                 lanzamientos++;
             }
 
             for (int i = 0; i < 11; i++)  //11 posibles sumas
             {
-                txtResutado.Text += "La sumatoria " + (i+2) + " se obtuvo " + dado[i] + " veces" + Environment.NewLine;
+                txtResutado.Text += "La sumatoria " + (i+2) + " se obtuvo " + resultado[i] 
+                                 + " veces" + Environment.NewLine;
+            }
+        }
+
+        private void btnlanzarSumaDosDados_Click(object sender, EventArgs e)
+        {
+            txtResutado.Text = "";
+            int lanzamientos = 0;
+            int[] resultado = new int[11];
+            int frecuenciaSuma = 0;
+            int suma;
+
+            while (lanzamientos < 100)
+            {
+                suma = unDado.lanzarDado() + otroDado.lanzarDado();
+
+                frecuenciaSuma = resultado[suma - 2];
+                frecuenciaSuma++;
+                resultado[suma - 2] = frecuenciaSuma;
+
+                lanzamientos++;
+            }
+
+            for (int i = 0; i < 11; i++)  //11 posibles sumas
+            {
+                txtResutado.Text += "La sumatoria " + (i + 2) + " se obtuvo " + resultado[i]
+                                 + " veces" + Environment.NewLine;
             }
         }
     }

@@ -8,3 +8,13 @@ c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de
 c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.csproj.CoreCompileInputs.cache
 c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.exe
 c:\users\girom\documents\visual studio 2017\Projects\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.pdb
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\bin\Debug\prásctica 4 lanzamiento de dados.exe.config
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\bin\Debug\prásctica 4 lanzamiento de dados.exe
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\bin\Debug\prásctica 4 lanzamiento de dados.pdb
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.csprojResolveAssemblyReference.cache
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica_4_lanzamiento_de_dados.Form1.resources
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica_4_lanzamiento_de_dados.Properties.Resources.resources
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.csproj.GenerateResource.Cache
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.csproj.CoreCompileInputs.cache
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.exe
+C:\Users\girom\Documents\Visual Studio 2017\Projects\4ok\1a parcial\CLASSROOM\prásctica 4 lanzamiento de dados\prásctica 4 lanzamiento de dados\obj\Debug\prásctica 4 lanzamiento de dados.pdb
